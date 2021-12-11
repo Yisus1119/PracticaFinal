@@ -52,6 +52,12 @@
     <Compile Include="CrudGrupoEntidades.Designer.cs">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entidades.Designer.cs">
+      <DependentUpon>Entidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,14 +72,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CrudTipoEntidades.cs">
+    <Compile Include="TipoEntidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CrudTipoEntidades.Designer.cs">
-      <DependentUpon>CrudTipoEntidades.cs</DependentUpon>
+    <Compile Include="TipoEntidades.Designer.cs">
+      <DependentUpon>TipoEntidades.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CrudGrupoEntidades.resx">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entidades.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
@@ -81,18 +90,8 @@
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <EmbeddedResource Include="CrudTipoEntidades.resx">
-      <DependentUpon>CrudTipoEntidades.cs</DependentUpon>
+    <EmbeddedResource Include="TipoEntidades.resx">
+      <DependentUpon>TipoEntidades.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,12 +115,6 @@
       <Project>{9f2131d5-2596-4f31-9001-bb319727b314}</Project>
       <Name>ClaseNegocios</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\venta.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\venta1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

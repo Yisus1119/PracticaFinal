@@ -16,7 +16,7 @@ namespace PracticaFInalProgramacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CrudTipoEntidades());
+            Application.Run(new FormLogin());
         }
     }
 }

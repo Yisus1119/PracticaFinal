@@ -10,3 +10,9 @@ C:\Users\smail\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.csproj
 C:\Users\smail\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.csproj.CoreCompileInputs.cache
 C:\Users\smail\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.dll
 C:\Users\smail\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.pdb
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\bin\Debug\ClaseDatos.dll
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\bin\Debug\ClaseDatos.pdb
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.csproj.AssemblyReference.cache
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.dll
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Debug\ClaseDatos.pdb

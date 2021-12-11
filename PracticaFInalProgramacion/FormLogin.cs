@@ -54,13 +54,23 @@ namespace PracticaFInalProgramacion
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             Conexion.AbrirConexion();
-
             InvocarMetodos objetoNegocio = new InvocarMetodos();
-
+        
+         
+          if(  objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text))
+            {
+                MessageBox.Show("Registro correcto, bienvenido al sistema");
+                this.Hide();
+                MenuPrincipal verPrincipal = new MenuPrincipal();
+                verPrincipal.Show();
+            }
+            else
+            {
+                MessageBox.Show("No se encontro el usuario o contraseña");
+                txtUserEntidad.ResetText();
+                txtPasswdEntidad.ResetText();
+            }
             
-            objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text);
-            MessageBox.Show("Registro correcto, bienvenido al sistema");
-
 
         }
 

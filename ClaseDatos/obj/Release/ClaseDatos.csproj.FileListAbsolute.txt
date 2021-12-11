@@ -1,0 +1,6 @@
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\bin\Release\ClaseDatos.dll
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\bin\Release\ClaseDatos.pdb
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Release\ClaseDatos.csproj.AssemblyReference.cache
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Release\ClaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Release\ClaseDatos.dll
+C:\Users\enriq\Source\Repos\PracticaFinal\ClaseDatos\obj\Release\ClaseDatos.pdb
