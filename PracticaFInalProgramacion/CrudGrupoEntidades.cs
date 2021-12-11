@@ -46,7 +46,7 @@ namespace PracticaFInalProgramacion
             txtComentario.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
             comboStatus.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
             checkBoxEliminable.Checked = (bool)dataGridView1.CurrentRow.Cells[4].Value;
-            dateFechaRegistro.Value = (DateTime)dataGridView1.CurrentRow.Cells[5].Value;
+            //dateFechaRegistro.Value = (DateTime)dataGridView1.CurrentRow.Cells[5].Value;
 
 
         }
@@ -56,8 +56,9 @@ namespace PracticaFInalProgramacion
             try
             {
                 objetoNegocios.GetInsertarGruposEntidades
-                       (txtDescripcion.Text, txtComentario.Text, comboStatus.Text, checkBoxEliminable.Checked.ToString(), dateFechaRegistro.CustomFormat);
+                       (txtDescripcion.Text, txtComentario.Text, comboStatus.Text, checkBoxEliminable.Checked.ToString());
                 MessageBox.Show("Datos ingresados correctamente.");
+                MostrarGrupoEntidad();
             }
             catch (Exception ex)
             {
