@@ -64,5 +64,10 @@ namespace PracticaFInalProgramacion
                 MessageBox.Show("No se puedo ingresar la mercancia, error no.  " + ex);
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
