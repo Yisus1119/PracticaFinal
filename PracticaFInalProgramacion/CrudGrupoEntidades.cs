@@ -46,13 +46,14 @@ namespace PracticaFInalProgramacion
             txtComentario.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
             comboStatus.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
             checkBoxEliminable.Checked = (bool)dataGridView1.CurrentRow.Cells[4].Value;
-            //dateFechaRegistro.Value = (DateTime)dataGridView1.CurrentRow.Cells[5].Value;
+
 
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+               
             try
             {
                 objetoNegocios.GetInsertarGruposEntidades
@@ -62,8 +63,63 @@ namespace PracticaFInalProgramacion
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No se puedo ingresar la mercancia, error no.  " + ex);
+                MessageBox.Show("No se puedo ingresar la mercancia, Verifique que no haya cmapos vacios.  " + ex);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            if (txtDescripcion.Text == "" || txtComentario.Text == "" || comboStatus.Text == "")
+            {
+                MessageBox.Show("Fallo al editar, verifique que no haya campos vacios.");
+
+            }
+            else {  
+
+                Conexion.AbrirConexion();
+            string ActualizarEntidades = "UPDATE GruposEntidades SET Descripcion=@Descripcion, Comentario=@Comentario, Status=@Status,NoEliminable=@NoEliminable WHERE IdGrupoEntidad=@IdGrupoEntidad";
+
+            SqlCommand comandoActualizar = new SqlCommand(ActualizarEntidades,Conexion.AbrirConexion());
+            comandoActualizar.Parameters.AddWithValue("@IdGrupoEntidad", txtIdGrupoEntidad.Text);
+            comandoActualizar.Parameters.AddWithValue("@Descripcion", txtDescripcion.Text);
+            comandoActualizar.Parameters.AddWithValue("@Comentario", txtComentario.Text);
+            comandoActualizar.Parameters.AddWithValue("@Status", comboStatus.Text);
+            comandoActualizar.Parameters.AddWithValue("@NoEliminable", checkBoxEliminable.Checked.ToString());
+
+            comandoActualizar.ExecuteNonQuery();
+            MessageBox.Show("Se han actualizado los registros seleccionados");
+            txtIdGrupoEntidad.ResetText();
+            txtDescripcion.ResetText();
+            txtComentario.ResetText();
+            comboStatus.ResetText();
+            checkBoxEliminable.ResetText();
+            MostrarGrupoEntidad();
+            Conexion.CerrarConexion();
+            }
+
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Conexion.AbrirConexion();
+            string BorrarEntidad = "DELETE FROM GruposEntidades WHERE IdGrupoEntidad=@IdGrupoEntidad";
+
+            SqlCommand comandoBorrar = new SqlCommand(BorrarEntidad, Conexion.AbrirConexion());
+            comandoBorrar.Parameters.AddWithValue("@IdGrupoEntidad", txtIdGrupoEntidad.Text);
+
+            comandoBorrar.ExecuteNonQuery();
+            MessageBox.Show("Se ha borrado el registro seleccionado.");
+            txtIdGrupoEntidad.ResetText();
+            txtDescripcion.ResetText();
+            txtComentario.ResetText();
+            comboStatus.ResetText();
+            checkBoxEliminable.ResetText();
+            MostrarGrupoEntidad();
+            Conexion.CerrarConexion();
+
+
         }
     }
 }

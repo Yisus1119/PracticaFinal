@@ -44,6 +44,7 @@ namespace PracticaFInalProgramacion
             this.label5 = new System.Windows.Forms.Label();
             this.dateFechaRegistro = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,6 +75,7 @@ namespace PracticaFInalProgramacion
             this.button3.TabIndex = 5;
             this.button3.Text = "Editar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button6
             // 
@@ -95,6 +97,7 @@ namespace PracticaFInalProgramacion
             this.button7.TabIndex = 9;
             this.button7.Text = "Eliminar";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label1
             // 
@@ -156,11 +159,10 @@ namespace PracticaFInalProgramacion
             // checkBoxEliminable
             // 
             this.checkBoxEliminable.AutoSize = true;
-            this.checkBoxEliminable.Location = new System.Drawing.Point(659, 279);
+            this.checkBoxEliminable.Location = new System.Drawing.Point(766, 288);
             this.checkBoxEliminable.Name = "checkBoxEliminable";
-            this.checkBoxEliminable.Size = new System.Drawing.Size(112, 21);
+            this.checkBoxEliminable.Size = new System.Drawing.Size(18, 17);
             this.checkBoxEliminable.TabIndex = 19;
-            this.checkBoxEliminable.Text = "NoEliminable";
             this.checkBoxEliminable.UseVisualStyleBackColor = true;
             // 
             // label5
@@ -195,11 +197,21 @@ namespace PracticaFInalProgramacion
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(656, 288);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 17);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "NoEliminable";
+            // 
             // CrudGrupoEntidades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(991, 495);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.dateFechaRegistro);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.checkBoxEliminable);
@@ -241,6 +253,7 @@ namespace PracticaFInalProgramacion
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateFechaRegistro;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label4;
     }
 }
 
