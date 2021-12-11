@@ -41,7 +41,7 @@ namespace PracticaFInalProgramacion
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 62);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 59);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -69,32 +69,32 @@ namespace PracticaFInalProgramacion
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(287, 386);
+            this.button3.Location = new System.Drawing.Point(326, 369);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(86, 35);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Modificar";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(29, 377);
+            this.button6.Location = new System.Drawing.Point(13, 369);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(86, 35);
             this.button6.TabIndex = 8;
-            this.button6.Text = "button6";
+            this.button6.Text = "Insertar";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(698, 386);
+            this.button7.Location = new System.Drawing.Point(698, 369);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(86, 35);
             this.button7.TabIndex = 9;
-            this.button7.Text = "button7";
+            this.button7.Text = "Eliminar";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // CrudGrupoEntidades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,7 +106,7 @@ namespace PracticaFInalProgramacion
             this.Controls.Add(this.BuscarBtn);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
+            this.Name = "CrudGrupoEntidades";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
