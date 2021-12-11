@@ -8,11 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Data.SqlClient;
+using ClaseDatos;
+using ClaseNegocios;
 
 namespace PracticaFInalProgramacion
 {
     public partial class FormLogin : Form
     {
+        ClaseDatos.Conexion Conexion = new Conexion();
+
+     
         public FormLogin()
         {
             InitializeComponent();
@@ -33,11 +39,33 @@ namespace PracticaFInalProgramacion
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            InvocarMetodos objetoNegocio = new InvocarMetodos();
+            try
+            {
+                
+                objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text);
+                MessageBox.Show("Registro correcto, bienvenido al sistema");
+                this.Close();
+                Form1 verForm = new Form1();
+                verForm.Show();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(" Datos Incorrectos, error: " + ex);
+            }
+
+
         }
     }
 }
