@@ -16,12 +16,5 @@ namespace PracticaFInalProgramacion
         {
             InitializeComponent();
         }
-
-        private void VolverBtn_Click(object sender, EventArgs e)
-        {
-            Form1 CR = new Form1();
-            CR.Show();
-            this.Visible = false;
-        }
     }
 }

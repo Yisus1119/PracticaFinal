@@ -1,7 +1,7 @@
 ﻿
 namespace PracticaFInalProgramacion
 {
-    partial class Form1
+    partial class CRUD
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -138,7 +138,7 @@ namespace PracticaFInalProgramacion
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Form1
+            // CRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,8 +152,11 @@ namespace PracticaFInalProgramacion
             this.Controls.Add(this.BuscarBtn);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximumSize = new System.Drawing.Size(775, 456);
+            this.MinimumSize = new System.Drawing.Size(775, 456);
+            this.Name = "CRUD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "CRUD";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Estado)).EndInit();

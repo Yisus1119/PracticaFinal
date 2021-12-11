@@ -14,13 +14,13 @@ using System.Data.SqlClient;
 namespace PracticaFInalProgramacion
 {
  
-    public partial class Form1 : Form
+    public partial class CRUD : Form
     {
         ClaseDatos.Conexion ConexionBD = new Conexion();
         ClaseDatos.Metodos MetodosBD = new Metodos();
 
 
-        public Form1()
+        public CRUD()
         {
             InitializeComponent();
         }

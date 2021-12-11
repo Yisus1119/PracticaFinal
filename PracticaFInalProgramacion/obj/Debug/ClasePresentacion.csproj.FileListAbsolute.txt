@@ -23,7 +23,6 @@ C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\bin\Debug\Cl
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\bin\Debug\ClaseNegocios.pdb
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\ClasePresentacion.csproj.AssemblyReference.cache
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\ClasePresentacion.csproj.SuggestedBindingRedirects.cache
-C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Form1.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.FormLogin.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Properties.Resources.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\ClasePresentacion.csproj.GenerateResource.cache
@@ -31,3 +30,4 @@ C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\Cl
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\ClasePresentacion.csproj.CopyComplete
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.exe
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.pdb
+C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.CRUD.resources
