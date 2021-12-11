@@ -8,8 +8,6 @@ namespace ClaseNegocios
 {
     public class ValidacionEntidad
     {
-        Entidades cs = new Entidades();
-
 
 
     }
