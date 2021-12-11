@@ -72,6 +72,12 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
+    <Compile Include="TipoEntidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoEntidades.Designer.cs">
+      <DependentUpon>TipoEntidades.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrudGrupoEntidades.resx">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +99,9 @@
     </Compile>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoEntidades.resx">
+      <DependentUpon>TipoEntidades.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
