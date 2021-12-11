@@ -11,6 +11,8 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using ClaseDatos;
 using ClaseNegocios;
+using System.Windows.Forms;
+using System.Threading;
 
 namespace PracticaFInalProgramacion
 {
@@ -23,6 +25,7 @@ namespace PracticaFInalProgramacion
         public FormLogin()
         {
             InitializeComponent();
+
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -62,9 +65,14 @@ namespace PracticaFInalProgramacion
         }
 
 
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
 
     
 
-        
     }
 }

@@ -10,36 +10,22 @@ using System.Windows.Forms;
 
 namespace PracticaFInalProgramacion
 {
-    public partial class SplashScreen1 : Form
+    public partial class SplashScreen : Form
     {
-        public SplashScreen1()
+        public SplashScreen()
         {
             InitializeComponent();
-        }
-
-        private void SplashScreen1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             //INCREMENTAMOS LA BARRA
-            progressBar1.Increment(2);
-            label1.Text = progressBar1.Value.ToString() + "%";
+            progressBar1.Increment(1);
 
             //Si llega al maximo paramos el timer
-            if (progressBar1.Value == progressBar1.Maximum)
+            if(progressBar1.Value == 100)
             {
                 timer1.Stop();
-                this.Hide();
-                FormLogin frmlogin = new FormLogin();
-                frmlogin.ShowDialog();
             }
         }
     }
