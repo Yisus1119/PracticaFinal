@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="InvocarMetodos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidacionEntidad.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClaseDatos\ClaseDatos.csproj">

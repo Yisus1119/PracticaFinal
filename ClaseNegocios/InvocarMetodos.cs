@@ -32,6 +32,12 @@ namespace ClaseNegocios
             return objetoMetodos.IniciarSesion(UserNameEntidad, PassworEntidad);
         }
 
+        public void GetInsertarGruposEntidades(string Descripcion, string Comentario, string Status, string NoEliminable, string FechaRegistro)
+        {
+            DateTime dt = Convert.ToDateTime(FechaRegistro);
+            string fecha = dt.ToString("yyyy-M-dd");
+            objetoMetodos.InsertarGrupoEntidades(Descripcion, Comentario, Status, Convert.ToBoolean(NoEliminable), fecha);
+        }
 
 
     }

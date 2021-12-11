@@ -61,3 +61,4 @@ C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\Cl
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.exe
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.pdb
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.resources
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.resources

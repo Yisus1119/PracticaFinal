@@ -55,6 +55,21 @@ namespace ClaseDatos
             return true;
         }
 
+        public void InsertarGrupoEntidades(string Descripcion, string Comentario, string Status, bool NoEliminable, string FechaRegistro)
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "insertarGrupoEntidad";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@Descripcion", Descripcion);
+            comando.Parameters.AddWithValue("@Comentario", Comentario);
+            comando.Parameters.AddWithValue("@Status", Status);
+            comando.Parameters.AddWithValue("@NoEliminable", NoEliminable);
+            comando.Parameters.AddWithValue("@FechaRegistro", FechaRegistro);
+            comando.ExecuteNonQuery();
+            Conexion.AbrirConexion();
+
+        }
+
 
     }
 }

@@ -51,5 +51,18 @@ namespace PracticaFInalProgramacion
 
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                objetoNegocios.GetInsertarGruposEntidades
+                       (txtDescripcion.Text, txtComentario.Text, comboStatus.Text, checkBoxEliminable.Checked.ToString(), dateFechaRegistro.CustomFormat);
+                MessageBox.Show("Datos ingresados correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se puedo ingresar la mercancia, error no.  " + ex);
+            }
+        }
     }
 }
