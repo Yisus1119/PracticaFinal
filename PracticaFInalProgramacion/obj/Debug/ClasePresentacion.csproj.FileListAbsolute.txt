@@ -39,3 +39,4 @@ C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\
 C:\Users\smail\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.CrudGrupoEntidades.resources
 C:\Users\smail\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.MenuPrincipal.resources
 C:\Users\smail\source\repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.TipoEntidades.resources
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.TipoEntidades.resources

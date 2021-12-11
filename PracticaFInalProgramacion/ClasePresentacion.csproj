@@ -66,12 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Splash.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SplashScreen.Designer.cs">
-      <DependentUpon>Splash.cs</DependentUpon>
-    </Compile>
     <Compile Include="TipoEntidades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,9 +91,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SplashScreen.resx">
-      <DependentUpon>Splash.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TipoEntidades.resx">
       <DependentUpon>TipoEntidades.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,9 +116,6 @@
       <Project>{9f2131d5-2596-4f31-9001-bb319727b314}</Project>
       <Name>ClaseNegocios</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\venta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
