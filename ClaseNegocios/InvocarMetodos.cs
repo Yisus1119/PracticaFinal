@@ -8,7 +8,7 @@ using ClaseDatos;
 
 namespace ClaseNegocios
 {
-   public class InvocarMetodos
+    public class InvocarMetodos
     {
         public Metodos objetoMetodos = new Metodos();
 
@@ -26,7 +26,17 @@ namespace ClaseNegocios
             return GrupoEntidades;
         }
 
+        public DataTable GetTipoEntidades()
+        {
+            DataTable TipoEntidades = new DataTable();
+            TipoEntidades = objetoMetodos.MostrarTipoEntidades();
+            return TipoEntidades;
+        }
+        public void InsertarTipoEntidad (string idTipo, string descripcion, string idGrupo, string comentario, string status, string eliminable, string date){
+            objetoMetodos.InsertarTipoEntidades(idTipo, descripcion,Convert.ToInt32(idGrupo), comentario, status, Convert.ToByte(eliminable),Convert.ToDateTime(date) );
 
+            }
+    
         public void Login (string UserNameEntidad, string PassworEntidad)
         {
             objetoMetodos.IniciarSesion(UserNameEntidad, PassworEntidad);

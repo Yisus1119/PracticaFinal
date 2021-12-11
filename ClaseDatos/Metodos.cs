@@ -38,6 +38,21 @@ namespace ClaseDatos
             return tabla;
         }
 
+        public DataTable MostrarTipoEntidades()
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "MostrarTipoEntidades";
+            comando.CommandType = CommandType.StoredProcedure;
+            BuscarEntidades = comando.ExecuteReader();
+            tabla.Load(BuscarEntidades);
+            return tabla;
+        }
+        public void InsertarTipoEntidades(string idTipo, string descripcion, int idGrupo, string comentario, string status, byte eliminable, DateTime date)
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "insert into TiposEntidades values ('" + idTipo + "','" + descripcion+ "','" + idGrupo + "','" + comentario + "','" + status + "','" + eliminable + "','" + date + "')";
+            comando.ExecuteNonQuery();
+        }
         public void IniciarSesion (string UserNameEntidad, string PassworEntidad)
         {
             comando.Connection = Conexion.AbrirConexion();

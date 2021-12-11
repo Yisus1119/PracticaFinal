@@ -66,11 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipoEntidades.cs">
+    <Compile Include="CrudTipoEntidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TipoEntidades.Designer.cs">
-      <DependentUpon>TipoEntidades.cs</DependentUpon>
+    <Compile Include="CrudTipoEntidades.Designer.cs">
+      <DependentUpon>CrudTipoEntidades.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CrudGrupoEntidades.resx">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
@@ -91,8 +91,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TipoEntidades.resx">
-      <DependentUpon>TipoEntidades.cs</DependentUpon>
+    <EmbeddedResource Include="CrudTipoEntidades.resx">
+      <DependentUpon>CrudTipoEntidades.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
