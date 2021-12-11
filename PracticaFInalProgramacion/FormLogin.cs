@@ -62,7 +62,7 @@ namespace PracticaFInalProgramacion
             }
             catch (Exception ex)
             {
-                MessageBox.Show(" Datos Incorrectos, error: " + ex);
+                MessageBox.Show(" Datos Incorrectos, error no: " + ex);
             }
 
 
