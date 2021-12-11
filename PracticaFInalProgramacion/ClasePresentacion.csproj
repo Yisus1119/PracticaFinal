@@ -52,6 +52,12 @@
     <Compile Include="CrudGrupoEntidades.Designer.cs">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entidades.Designer.cs">
+      <DependentUpon>Entidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="CrudGrupoEntidades.resx">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entidades.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
