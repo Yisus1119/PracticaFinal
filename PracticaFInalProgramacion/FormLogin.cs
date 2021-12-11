@@ -54,7 +54,7 @@ namespace PracticaFInalProgramacion
 
             InvocarMetodos objetoNegocio = new InvocarMetodos();
 
-            if()
+            
             objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text);
             MessageBox.Show("Registro correcto, bienvenido al sistema");
 
