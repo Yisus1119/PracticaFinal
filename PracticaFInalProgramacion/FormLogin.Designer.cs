@@ -37,6 +37,7 @@ namespace PracticaFInalProgramacion
             this.btnIngresar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPasswdEntidad = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +94,7 @@ namespace PracticaFInalProgramacion
             // btnIngresar
             // 
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Location = new System.Drawing.Point(148, 490);
+            this.btnIngresar.Location = new System.Drawing.Point(148, 477);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(148, 41);
             this.btnIngresar.TabIndex = 5;
@@ -119,11 +120,21 @@ namespace PracticaFInalProgramacion
             this.txtPasswdEntidad.Size = new System.Drawing.Size(234, 27);
             this.txtPasswdEntidad.TabIndex = 7;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(213, 162);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "label5";
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 585);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtPasswdEntidad);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnIngresar);
@@ -151,5 +162,6 @@ namespace PracticaFInalProgramacion
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPasswdEntidad;
+        private System.Windows.Forms.Label label5;
     }
 }
