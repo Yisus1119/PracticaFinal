@@ -49,8 +49,8 @@ namespace PracticaFInalProgramacion
             // 
             // BuscarBtn
             // 
-            this.BuscarBtn.Location = new System.Drawing.Point(521, 25);
-            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BuscarBtn.Location = new System.Drawing.Point(521, 24);
+            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4);
             this.BuscarBtn.Name = "BuscarBtn";
             this.BuscarBtn.Size = new System.Drawing.Size(100, 28);
             this.BuscarBtn.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace PracticaFInalProgramacion
             // txtIdGrupoEntidad
             // 
             this.txtIdGrupoEntidad.Location = new System.Drawing.Point(364, 30);
-            this.txtIdGrupoEntidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdGrupoEntidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdGrupoEntidad.Name = "txtIdGrupoEntidad";
             this.txtIdGrupoEntidad.Size = new System.Drawing.Size(132, 22);
             this.txtIdGrupoEntidad.TabIndex = 2;
@@ -99,7 +99,7 @@ namespace PracticaFInalProgramacion
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(656, 34);
+            this.label1.Location = new System.Drawing.Point(656, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 17);
             this.label1.TabIndex = 10;
@@ -128,7 +128,6 @@ namespace PracticaFInalProgramacion
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.Location = new System.Drawing.Point(659, 62);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(283, 27);
             this.txtDescripcion.TabIndex = 14;
@@ -138,7 +137,6 @@ namespace PracticaFInalProgramacion
             this.txtComentario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtComentario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtComentario.Location = new System.Drawing.Point(659, 128);
-            this.txtComentario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtComentario.Multiline = true;
             this.txtComentario.Name = "txtComentario";
             this.txtComentario.Size = new System.Drawing.Size(283, 53);
@@ -147,8 +145,10 @@ namespace PracticaFInalProgramacion
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
+            this.comboStatus.Items.AddRange(new object[] {
+            "Activa",
+            "Inactiva"});
             this.comboStatus.Location = new System.Drawing.Point(659, 224);
-            this.comboStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboStatus.Name = "comboStatus";
             this.comboStatus.Size = new System.Drawing.Size(179, 24);
             this.comboStatus.TabIndex = 18;
@@ -157,7 +157,6 @@ namespace PracticaFInalProgramacion
             // 
             this.checkBoxEliminable.AutoSize = true;
             this.checkBoxEliminable.Location = new System.Drawing.Point(659, 279);
-            this.checkBoxEliminable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxEliminable.Name = "checkBoxEliminable";
             this.checkBoxEliminable.Size = new System.Drawing.Size(112, 21);
             this.checkBoxEliminable.TabIndex = 19;
@@ -176,10 +175,10 @@ namespace PracticaFInalProgramacion
             // dateFechaRegistro
             // 
             this.dateFechaRegistro.Location = new System.Drawing.Point(655, 350);
-            this.dateFechaRegistro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateFechaRegistro.Name = "dateFechaRegistro";
             this.dateFechaRegistro.Size = new System.Drawing.Size(200, 22);
             this.dateFechaRegistro.TabIndex = 21;
+            this.dateFechaRegistro.Value = new System.DateTime(2021, 12, 11, 0, 0, 0, 0);
             // 
             // dataGridView1
             // 
@@ -192,7 +191,7 @@ namespace PracticaFInalProgramacion
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(605, 310);
+            this.dataGridView1.Size = new System.Drawing.Size(606, 310);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 

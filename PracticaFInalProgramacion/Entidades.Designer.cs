@@ -65,20 +65,15 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.CheckBoxRol = new System.Windows.Forms.ComboBox();
-            this.InsertarBtn = new System.Windows.Forms.Button();
-            this.dataViewEntidadad = new System.Windows.Forms.DataGridView();
-            this.ModificarBtn = new System.Windows.Forms.Button();
-            this.EliminarBtn = new System.Windows.Forms.Button();
-            this.BuscarBtn = new System.Windows.Forms.Button();
-            this.BuscarTxt = new System.Windows.Forms.TextBox();
+            this.VolverBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataViewEntidadad)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.NoDocumento);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -89,7 +84,6 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.DireccionTxt);
             this.groupBox1.Controls.Add(this.label1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -110,8 +104,8 @@
             // 
             // TipoDocBox
             // 
-            this.TipoDocBox.FormattingEnabled = true;
             resources.ApplyResources(this.TipoDocBox, "TipoDocBox");
+            this.TipoDocBox.FormattingEnabled = true;
             this.TipoDocBox.Name = "TipoDocBox";
             // 
             // label3
@@ -121,8 +115,8 @@
             // 
             // TipoEntidadBox
             // 
-            this.TipoEntidadBox.FormattingEnabled = true;
             resources.ApplyResources(this.TipoEntidadBox, "TipoEntidadBox");
+            this.TipoEntidadBox.FormattingEnabled = true;
             this.TipoEntidadBox.Name = "TipoEntidadBox";
             // 
             // LocalidadTxt
@@ -147,6 +141,7 @@
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.URKTiktokTxt);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.URLTwitterTxt);
@@ -159,7 +154,6 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.TelefonoTxt);
             this.groupBox2.Controls.Add(this.label10);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -260,8 +254,8 @@
             // 
             // Status
             // 
-            this.Status.FormattingEnabled = true;
             resources.ApplyResources(this.Status, "Status");
+            this.Status.FormattingEnabled = true;
             this.Status.Name = "Status";
             // 
             // CheckBoxEliminable
@@ -272,6 +266,7 @@
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.label16);
             this.groupBox3.Controls.Add(this.CheckBoxRol);
             this.groupBox3.Controls.Add(this.Status);
@@ -279,7 +274,6 @@
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.CreditosTxt);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -290,56 +284,21 @@
             // 
             // CheckBoxRol
             // 
-            this.CheckBoxRol.FormattingEnabled = true;
             resources.ApplyResources(this.CheckBoxRol, "CheckBoxRol");
+            this.CheckBoxRol.FormattingEnabled = true;
             this.CheckBoxRol.Name = "CheckBoxRol";
             // 
-            // InsertarBtn
+            // VolverBtn
             // 
-            resources.ApplyResources(this.InsertarBtn, "InsertarBtn");
-            this.InsertarBtn.Name = "InsertarBtn";
-            this.InsertarBtn.UseVisualStyleBackColor = true;
-            this.InsertarBtn.Click += new System.EventHandler(this.InsertarBtn_Click);
-            // 
-            // dataViewEntidadad
-            // 
-            this.dataViewEntidadad.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataViewEntidadad, "dataViewEntidadad");
-            this.dataViewEntidadad.Name = "dataViewEntidadad";
-            // 
-            // ModificarBtn
-            // 
-            resources.ApplyResources(this.ModificarBtn, "ModificarBtn");
-            this.ModificarBtn.Name = "ModificarBtn";
-            this.ModificarBtn.UseVisualStyleBackColor = true;
-            // 
-            // EliminarBtn
-            // 
-            resources.ApplyResources(this.EliminarBtn, "EliminarBtn");
-            this.EliminarBtn.Name = "EliminarBtn";
-            this.EliminarBtn.UseVisualStyleBackColor = true;
-            // 
-            // BuscarBtn
-            // 
-            resources.ApplyResources(this.BuscarBtn, "BuscarBtn");
-            this.BuscarBtn.Name = "BuscarBtn";
-            this.BuscarBtn.UseVisualStyleBackColor = true;
-            // 
-            // BuscarTxt
-            // 
-            resources.ApplyResources(this.BuscarTxt, "BuscarTxt");
-            this.BuscarTxt.Name = "BuscarTxt";
+            resources.ApplyResources(this.VolverBtn, "VolverBtn");
+            this.VolverBtn.Name = "VolverBtn";
+            this.VolverBtn.UseVisualStyleBackColor = true;
             // 
             // Entidades
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.BuscarTxt);
-            this.Controls.Add(this.BuscarBtn);
-            this.Controls.Add(this.EliminarBtn);
-            this.Controls.Add(this.ModificarBtn);
-            this.Controls.Add(this.dataViewEntidadad);
-            this.Controls.Add(this.InsertarBtn);
+            this.Controls.Add(this.VolverBtn);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.ComentarioTxt);
@@ -354,7 +313,6 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataViewEntidadad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -398,11 +356,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox CheckBoxRol;
-        private System.Windows.Forms.Button InsertarBtn;
-        private System.Windows.Forms.DataGridView dataViewEntidadad;
-        private System.Windows.Forms.Button ModificarBtn;
-        private System.Windows.Forms.Button EliminarBtn;
-        private System.Windows.Forms.Button BuscarBtn;
-        private System.Windows.Forms.TextBox BuscarTxt;
+        private System.Windows.Forms.Button VolverBtn;
     }
 }

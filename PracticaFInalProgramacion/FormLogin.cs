@@ -55,29 +55,23 @@ namespace PracticaFInalProgramacion
         {
             Conexion.AbrirConexion();
             InvocarMetodos objetoNegocio = new InvocarMetodos();
-
-            if (txtUserEntidad.Text == "" || txtPasswdEntidad.Text == "")
+        
+         
+          if(  objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text))
             {
-                MessageBox.Show("No se puede iniciar sesion, hay campos vacios");
+                MessageBox.Show("Registro correcto, bienvenido al sistema");
+                this.Hide();
+                MenuPrincipal verPrincipal = new MenuPrincipal();
+                verPrincipal.Show();
             }
             else
             {
-
-                if (objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text))
-                {
-                    MessageBox.Show("Registro correcto, bienvenido al sistema");
-                    this.Hide();
-                    MenuPrincipal verPrincipal = new MenuPrincipal();
-                    verPrincipal.Show();
-                }
-                else
-                {
-                    MessageBox.Show("No se encontro el usuario o contraseña");
-                    txtUserEntidad.ResetText();
-                    txtPasswdEntidad.ResetText();
-                }
-
+                MessageBox.Show("No se encontro el usuario o contraseña");
+                txtUserEntidad.ResetText();
+                txtPasswdEntidad.ResetText();
             }
+            
+
         }
 
 

@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace PracticaFInalProgramacion
 {
-    public partial class Entidades : Form
+    public partial class TipoEntidades : Form
     {
-        public Entidades()
+        public TipoEntidades()
         {
             InitializeComponent();
+        }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TipoEntidades_Load(object sender, EventArgs e)
+        {
+
         }
 
     }
