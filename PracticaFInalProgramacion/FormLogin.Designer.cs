@@ -46,7 +46,7 @@ namespace PracticaFInalProgramacion
             this.panel1.BackColor = System.Drawing.Color.MediumAquamarine;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(358, 30);
             this.panel1.TabIndex = 0;
@@ -91,7 +91,7 @@ namespace PracticaFInalProgramacion
             this.txtUserEntidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUserEntidad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserEntidad.Location = new System.Drawing.Point(88, 236);
-            this.txtUserEntidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUserEntidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtUserEntidad.Name = "txtUserEntidad";
             this.txtUserEntidad.Size = new System.Drawing.Size(176, 22);
             this.txtUserEntidad.TabIndex = 3;
@@ -100,7 +100,7 @@ namespace PracticaFInalProgramacion
             // 
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Location = new System.Drawing.Point(111, 388);
-            this.btnIngresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(111, 33);
             this.btnIngresar.TabIndex = 5;
@@ -124,7 +124,7 @@ namespace PracticaFInalProgramacion
             this.txtPasswdEntidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPasswdEntidad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPasswdEntidad.Location = new System.Drawing.Point(88, 338);
-            this.txtPasswdEntidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPasswdEntidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtPasswdEntidad.Name = "txtPasswdEntidad";
             this.txtPasswdEntidad.Size = new System.Drawing.Size(176, 22);
             this.txtPasswdEntidad.TabIndex = 7;
@@ -153,8 +153,9 @@ namespace PracticaFInalProgramacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLogin";
             this.Load += new System.EventHandler(this.FormLogin_Load);
             this.panel1.ResumeLayout(false);
