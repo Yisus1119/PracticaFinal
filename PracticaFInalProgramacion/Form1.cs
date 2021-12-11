@@ -39,5 +39,9 @@ namespace PracticaFInalProgramacion
 
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            statusBar1.Panels[1].Text = System.DateTime.Now.ToString("F");
+        }
     }
 }
