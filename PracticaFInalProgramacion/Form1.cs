@@ -14,13 +14,13 @@ using System.Data.SqlClient;
 namespace PracticaFInalProgramacion
 {
  
-    public partial class CRUD : Form
+    public partial class Form1 : Form
     {
         ClaseDatos.Conexion ConexionBD = new Conexion();
         ClaseDatos.Metodos MetodosBD = new Metodos();
 
 
-        public CRUD()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -39,9 +39,5 @@ namespace PracticaFInalProgramacion
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            statusBar1.Panels[1].Text = System.DateTime.Now.ToString("F");
-        }
     }
 }
