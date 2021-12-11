@@ -28,6 +28,19 @@ namespace ClaseDatos
 
         }
 
+        public void IniciarSesion(string UserNameEntidad, string PassworEntidad)
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "IniciarSesion";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@UserNameEntidad,", UserNameEntidad);
+            comando.Parameters.AddWithValue("@PassworEntidad", PassworEntidad);
+            comando.ExecuteNonQuery();
+           // Conexion.CerrarConexion();
+
+
+        }
+
 
     }
 }
