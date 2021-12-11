@@ -55,7 +55,7 @@ namespace ClaseDatos
             return true;
         }
 
-        public void InsertarGrupoEntidades(string Descripcion, string Comentario, string Status, bool NoEliminable, DateTime FechaRegistro)
+        public void InsertarGrupoEntidades(string Descripcion, string Comentario, string Status, bool NoEliminable, string FechaRegistro)
         {
             comando.Connection = Conexion.AbrirConexion();
             comando.CommandText = "insertarGrupoEntidad";

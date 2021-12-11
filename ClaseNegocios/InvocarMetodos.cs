@@ -34,7 +34,9 @@ namespace ClaseNegocios
 
         public void GetInsertarGruposEntidades(string Descripcion, string Comentario, string Status, string NoEliminable, string FechaRegistro)
         {
-            objetoMetodos.InsertarGrupoEntidades(Descripcion, Comentario, Status, Convert.ToBoolean(NoEliminable), Convert.ToDateTime(FechaRegistro));
+            DateTime dt = Convert.ToDateTime(FechaRegistro);
+            string fecha = dt.ToString("yyyy-M-dd");
+            objetoMetodos.InsertarGrupoEntidades(Descripcion, Comentario, Status, Convert.ToBoolean(NoEliminable), fecha);
         }
 
 

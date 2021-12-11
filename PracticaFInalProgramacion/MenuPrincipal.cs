@@ -42,17 +42,21 @@ namespace PracticaFInalProgramacion
 
         private void gruposEntidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CrudGrupoEntidades verGrupoEntidades = new CrudGrupoEntidades();
 
-            verGrupoEntidades.MdiParent = this;
-
-            verGrupoEntidades.Show();
+            loadform(new CrudGrupoEntidades());
         }
 
 
         private void entidadesToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             loadform(new Entidades());
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormLogin verLogin = new FormLogin();
+            verLogin.Show();
         }
     }
 }
