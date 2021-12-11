@@ -27,9 +27,9 @@ namespace ClaseNegocios
         }
 
 
-        public void Login (string UserNameEntidad, string PassworEntidad)
+        public bool Login (string UserNameEntidad, string PassworEntidad)
         {
-            objetoMetodos.IniciarSesion(UserNameEntidad, PassworEntidad);
+            return objetoMetodos.IniciarSesion(UserNameEntidad, PassworEntidad);
         }
 
 

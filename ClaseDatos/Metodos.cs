@@ -38,17 +38,21 @@ namespace ClaseDatos
             return tabla;
         }
 
-        public void IniciarSesion (string UserNameEntidad, string PassworEntidad)
+        public bool IniciarSesion (string UserNameEntidad, string PassworEntidad)
         {
+            string BuscarRegistro=null;
             comando.Connection = Conexion.AbrirConexion();
            comando.CommandText = "IniciarSesion";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@UserNameEntidad", UserNameEntidad);
             comando.Parameters.AddWithValue("@PassworEntidad", PassworEntidad);
-            comando.ExecuteScalar();
-           
+            BuscarRegistro =  comando.ExecuteScalar().ToString();
+            if (BuscarRegistro == "0") 
+            {
+                return false;
+            }
 
-
+            return true;
         }
 
 

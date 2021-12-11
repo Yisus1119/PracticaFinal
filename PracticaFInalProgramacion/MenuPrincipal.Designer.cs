@@ -120,7 +120,7 @@ namespace PracticaFInalProgramacion
             // 
             this.lblHora.AutoSize = true;
             this.lblHora.BackColor = System.Drawing.Color.White;
-            this.lblHora.Location = new System.Drawing.Point(763, 545);
+            this.lblHora.Location = new System.Drawing.Point(748, 545);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(39, 17);
             this.lblHora.TabIndex = 2;
@@ -130,7 +130,7 @@ namespace PracticaFInalProgramacion
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.BackColor = System.Drawing.Color.White;
-            this.lblFecha.Location = new System.Drawing.Point(849, 545);
+            this.lblFecha.Location = new System.Drawing.Point(873, 545);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(47, 17);
             this.lblFecha.TabIndex = 3;
