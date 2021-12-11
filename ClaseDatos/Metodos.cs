@@ -12,7 +12,7 @@ namespace ClaseDatos
     {
 
 
-        SqlDataReader leerEntidades;
+        SqlDataReader BuscarEntidades;
         DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
 
@@ -22,21 +22,31 @@ namespace ClaseDatos
             comando.Connection = Conexion.AbrirConexion();
             comando.CommandText = "MostrarEntidades";
             comando.CommandType = CommandType.StoredProcedure;
-            leerEntidades = comando.ExecuteReader();
-            tabla.Load(leerEntidades);
+            BuscarEntidades = comando.ExecuteReader();
+            tabla.Load(BuscarEntidades);
             return tabla;
 
         }
 
-        public void IniciarSesion(string UserNameEntidad, string PassworEntidad)
+        public DataTable MostrarGrupoEntidades()
         {
             comando.Connection = Conexion.AbrirConexion();
-            comando.CommandText = "IniciarSesion";
+            comando.CommandText = "MostrarGruposEntidades";
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@UserNameEntidad,", UserNameEntidad);
+            BuscarEntidades = comando.ExecuteReader();
+            tabla.Load(BuscarEntidades);
+            return tabla;
+        }
+
+        public void IniciarSesion (string UserNameEntidad, string PassworEntidad)
+        {
+            comando.Connection = Conexion.AbrirConexion();
+           comando.CommandText = "IniciarSesion";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@UserNameEntidad", UserNameEntidad);
             comando.Parameters.AddWithValue("@PassworEntidad", PassworEntidad);
-            comando.ExecuteNonQuery();
-           // Conexion.CerrarConexion();
+            comando.ExecuteScalar();
+           
 
 
         }

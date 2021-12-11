@@ -36,9 +36,10 @@ namespace PracticaFInalProgramacion
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 260);
+            this.progressBar1.Location = new System.Drawing.Point(63, 334);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(355, 18);
+            this.progressBar1.Size = new System.Drawing.Size(473, 22);
             this.progressBar1.TabIndex = 0;
             // 
             // timer1
@@ -49,15 +50,16 @@ namespace PracticaFInalProgramacion
             // 
             // SplashScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::PracticaFInalProgramacion.Properties.Resources.venta;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(379, 290);
+            this.ClientSize = new System.Drawing.Size(586, 401);
             this.Controls.Add(this.progressBar1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SplashScreen";
             this.Text = "SplashScreen";
             this.ResumeLayout(false);
