@@ -67,6 +67,10 @@
             this.CheckBoxRol = new System.Windows.Forms.ComboBox();
             this.InsertarBtn = new System.Windows.Forms.Button();
             this.dataViewEntidadad = new System.Windows.Forms.DataGridView();
+            this.ModificarBtn = new System.Windows.Forms.Button();
+            this.EliminarBtn = new System.Windows.Forms.Button();
+            this.BuscarBtn = new System.Windows.Forms.Button();
+            this.BuscarTxt = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -303,10 +307,37 @@
             resources.ApplyResources(this.dataViewEntidadad, "dataViewEntidadad");
             this.dataViewEntidadad.Name = "dataViewEntidadad";
             // 
+            // ModificarBtn
+            // 
+            resources.ApplyResources(this.ModificarBtn, "ModificarBtn");
+            this.ModificarBtn.Name = "ModificarBtn";
+            this.ModificarBtn.UseVisualStyleBackColor = true;
+            // 
+            // EliminarBtn
+            // 
+            resources.ApplyResources(this.EliminarBtn, "EliminarBtn");
+            this.EliminarBtn.Name = "EliminarBtn";
+            this.EliminarBtn.UseVisualStyleBackColor = true;
+            // 
+            // BuscarBtn
+            // 
+            resources.ApplyResources(this.BuscarBtn, "BuscarBtn");
+            this.BuscarBtn.Name = "BuscarBtn";
+            this.BuscarBtn.UseVisualStyleBackColor = true;
+            // 
+            // BuscarTxt
+            // 
+            resources.ApplyResources(this.BuscarTxt, "BuscarTxt");
+            this.BuscarTxt.Name = "BuscarTxt";
+            // 
             // Entidades
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BuscarTxt);
+            this.Controls.Add(this.BuscarBtn);
+            this.Controls.Add(this.EliminarBtn);
+            this.Controls.Add(this.ModificarBtn);
             this.Controls.Add(this.dataViewEntidadad);
             this.Controls.Add(this.InsertarBtn);
             this.Controls.Add(this.groupBox3);
@@ -369,5 +400,9 @@
         private System.Windows.Forms.ComboBox CheckBoxRol;
         private System.Windows.Forms.Button InsertarBtn;
         private System.Windows.Forms.DataGridView dataViewEntidadad;
+        private System.Windows.Forms.Button ModificarBtn;
+        private System.Windows.Forms.Button EliminarBtn;
+        private System.Windows.Forms.Button BuscarBtn;
+        private System.Windows.Forms.TextBox BuscarTxt;
     }
 }
