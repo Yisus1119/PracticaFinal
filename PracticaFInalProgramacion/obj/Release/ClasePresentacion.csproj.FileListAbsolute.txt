@@ -11,7 +11,6 @@ C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\PracticaFInalProgramacion.Entidades.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\PracticaFInalProgramacion.FormLogin.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\PracticaFInalProgramacion.MenuPrincipal.resources
-C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\PracticaFInalProgramacion.Properties.Resources.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\PracticaFInalProgramacion.TipoEntidades.resources
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\ClasePresentacion.csproj.GenerateResource.cache
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Release\ClasePresentacion.csproj.CoreCompileInputs.cache

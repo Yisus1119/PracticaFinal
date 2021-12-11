@@ -49,7 +49,8 @@ namespace PracticaFInalProgramacion
             verGrupoEntidades.Show();
         }
 
-        private void entidadesToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void entidadesToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             loadform(new Entidades());
         }
