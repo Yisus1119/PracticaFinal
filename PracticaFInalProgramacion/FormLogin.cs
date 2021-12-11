@@ -11,6 +11,8 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using ClaseDatos;
 using ClaseNegocios;
+using System.Windows.Forms;
+using System.Threading;
 
 namespace PracticaFInalProgramacion
 {
@@ -21,7 +23,20 @@ namespace PracticaFInalProgramacion
      
         public FormLogin()
         {
+            //Se crea un hilo
+            //Thread t = new Thread(new ThreadStart(SplashStart));
+            //Se arranca el hilo
+          //  t.Start();
+
+
+            //Dormimos la forma principal
+            Thread.Sleep(500);
+
             InitializeComponent();
+
+            //Finalizamos el hilo
+           // t.Abort();
+
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -65,6 +80,11 @@ namespace PracticaFInalProgramacion
                 MessageBox.Show(" Datos Incorrectos, error no: " + ex);
             }
 
+
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
 
         }
     }
