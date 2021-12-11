@@ -13,3 +13,4 @@ C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\
 C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\ClasePresentacion.csproj.CopyComplete
 C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.exe
 C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.pdb
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.FormLogin.resources
