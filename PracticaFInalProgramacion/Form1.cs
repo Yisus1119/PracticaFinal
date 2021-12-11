@@ -39,5 +39,16 @@ namespace PracticaFInalProgramacion
 
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            statusBar.Panels[1].Text = System.DateTime.Now.ToString("F");
+        }
+
+        private void InsertarBtn_Click(object sender, EventArgs e)
+        {
+            InsertarForm CR = new InsertarForm();
+            CR.Show();
+            this.Visible = false;
+        }
     }
 }
