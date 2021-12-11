@@ -1,7 +1,7 @@
 ﻿
 namespace PracticaFInalProgramacion
 {
-    partial class Form1
+    partial class CrudGrupoEntidades
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -32,11 +32,7 @@ namespace PracticaFInalProgramacion
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BuscarBtn = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -56,7 +52,7 @@ namespace PracticaFInalProgramacion
             // BuscarBtn
             // 
             this.BuscarBtn.Location = new System.Drawing.Point(684, 27);
-            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4);
             this.BuscarBtn.Name = "BuscarBtn";
             this.BuscarBtn.Size = new System.Drawing.Size(100, 28);
             this.BuscarBtn.TabIndex = 1;
@@ -66,59 +62,23 @@ namespace PracticaFInalProgramacion
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(543, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 2;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(15, 386);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(204, 386);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 35);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(464, 386);
+            this.button3.Location = new System.Drawing.Point(287, 386);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(86, 35);
             this.button3.TabIndex = 5;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(698, 386);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(86, 35);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(107, 386);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(86, 35);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(323, 386);
+            this.button6.Location = new System.Drawing.Point(29, 377);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(86, 35);
             this.button6.TabIndex = 8;
@@ -127,7 +87,7 @@ namespace PracticaFInalProgramacion
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(589, 386);
+            this.button7.Location = new System.Drawing.Point(698, 386);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(86, 35);
             this.button7.TabIndex = 9;
@@ -138,14 +98,10 @@ namespace PracticaFInalProgramacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(813, 450);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BuscarBtn);
             this.Controls.Add(this.dataGridView1);
@@ -164,11 +120,7 @@ namespace PracticaFInalProgramacion
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button BuscarBtn;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
     }

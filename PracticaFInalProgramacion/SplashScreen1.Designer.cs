@@ -37,10 +37,17 @@ namespace PracticaFInalProgramacion
             // 
             // progressBar1
             // 
+<<<<<<< HEAD:PracticaFInalProgramacion/SplashScreen1.Designer.cs
             this.progressBar1.Location = new System.Drawing.Point(12, 235);
             this.progressBar1.Maximum = 101;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(338, 23);
+=======
+            this.progressBar1.Location = new System.Drawing.Point(63, 334);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(473, 22);
+>>>>>>> 4a7604d245c467c948bc69254957fb8c65308219:PracticaFInalProgramacion/SplashScreen.Designer.cs
             this.progressBar1.TabIndex = 0;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
@@ -62,10 +69,11 @@ namespace PracticaFInalProgramacion
             // 
             // SplashScreen1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PracticaFInalProgramacion.Properties.Resources.venta1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD:PracticaFInalProgramacion/SplashScreen1.Designer.cs
             this.ClientSize = new System.Drawing.Size(362, 270);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
@@ -75,6 +83,15 @@ namespace PracticaFInalProgramacion
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen1";
             this.Load += new System.EventHandler(this.SplashScreen1_Load);
+=======
+            this.ClientSize = new System.Drawing.Size(586, 401);
+            this.Controls.Add(this.progressBar1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "SplashScreen";
+            this.Text = "SplashScreen";
+>>>>>>> 4a7604d245c467c948bc69254957fb8c65308219:PracticaFInalProgramacion/SplashScreen.Designer.cs
             this.ResumeLayout(false);
             this.PerformLayout();
 

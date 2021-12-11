@@ -19,8 +19,9 @@ namespace PracticaFInalProgramacion
     public partial class FormLogin : Form
     {
         ClaseDatos.Conexion Conexion = new Conexion();
+        ClaseDatos.Metodos Metodos = new Metodos();
 
-     
+
         public FormLogin()
         {
             //Se crea un hilo
@@ -64,28 +65,28 @@ namespace PracticaFInalProgramacion
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            InvocarMetodos objetoNegocio = new InvocarMetodos();
-            try
-            {
-                
-                objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text);
-                MessageBox.Show("Registro correcto, bienvenido al sistema");
-                this.Close();
-                Form1 verForm = new Form1();
-                verForm.Show();
+            Conexion.AbrirConexion();
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(" Datos Incorrectos, error no: " + ex);
-            }
+            InvocarMetodos objetoNegocio = new InvocarMetodos();
+
+            if()
+            objetoNegocio.Login(txtUserEntidad.Text, txtPasswdEntidad.Text);
+            MessageBox.Show("Registro correcto, bienvenido al sistema");
 
 
         }
 
+<<<<<<< HEAD
         private void FormLogin_Load(object sender, EventArgs e)
         {
 
         }
+=======
+
+
+    
+
+        
+>>>>>>> 4a7604d245c467c948bc69254957fb8c65308219
     }
 }

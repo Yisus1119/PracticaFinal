@@ -12,11 +12,27 @@ namespace ClaseNegocios
     {
         public Metodos objetoMetodos = new Metodos();
 
+        public DataTable GetEntidades()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objetoMetodos.MostrarEntidades();
+            return tabla;
+        }
+
+        public DataTable GetGrupoEntidades()
+        {
+            DataTable GrupoEntidades = new DataTable();
+            GrupoEntidades = objetoMetodos.MostrarGrupoEntidades();
+            return GrupoEntidades;
+        }
+
 
         public void Login (string UserNameEntidad, string PassworEntidad)
         {
             objetoMetodos.IniciarSesion(UserNameEntidad, PassworEntidad);
         }
+
+
 
     }
 }
