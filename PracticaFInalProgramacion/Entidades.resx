@@ -261,7 +261,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="NoDocumento.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 84</value>
@@ -669,7 +669,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="URKTiktokTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 243</value>
@@ -981,7 +981,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescripcionTxt.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1008,7 +1008,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1035,7 +1035,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="ComentarioTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 155</value>
@@ -1059,7 +1059,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ComentarioTxt.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="CreditosTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 32</value>
@@ -1227,7 +1227,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1278,10 +1278,10 @@
     <value>1</value>
   </data>
   <data name="InsertarBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 416</value>
+    <value>584, 461</value>
   </data>
   <data name="InsertarBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 33</value>
+    <value>87, 33</value>
   </data>
   <data name="InsertarBtn.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1299,13 +1299,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;InsertarBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="dataViewEntidadad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>584, 17</value>
+    <value>584, 49</value>
   </data>
   <data name="dataViewEntidadad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 432</value>
+    <value>309, 400</value>
   </data>
   <data name="dataViewEntidadad.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -1320,6 +1320,109 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataViewEntidadad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ModificarBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ModificarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 461</value>
+  </data>
+  <data name="ModificarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="ModificarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ModificarBtn.Text" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="&gt;&gt;ModificarBtn.Name" xml:space="preserve">
+    <value>ModificarBtn</value>
+  </data>
+  <data name="&gt;&gt;ModificarBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModificarBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ModificarBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EliminarBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EliminarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>806, 461</value>
+  </data>
+  <data name="EliminarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="EliminarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="EliminarBtn.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="&gt;&gt;EliminarBtn.Name" xml:space="preserve">
+    <value>EliminarBtn</value>
+  </data>
+  <data name="&gt;&gt;EliminarBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EliminarBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EliminarBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BuscarBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BuscarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>806, 14</value>
+  </data>
+  <data name="BuscarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 28</value>
+  </data>
+  <data name="BuscarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BuscarBtn.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="&gt;&gt;BuscarBtn.Name" xml:space="preserve">
+    <value>BuscarBtn</value>
+  </data>
+  <data name="&gt;&gt;BuscarBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BuscarBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BuscarBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BuscarTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 19</value>
+  </data>
+  <data name="BuscarTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="BuscarTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;BuscarTxt.Name" xml:space="preserve">
+    <value>BuscarTxt</value>
+  </data>
+  <data name="&gt;&gt;BuscarTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BuscarTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BuscarTxt.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1329,12 +1432,11 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>905, 461</value>
+    <value>905, 506</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>570, 500</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
