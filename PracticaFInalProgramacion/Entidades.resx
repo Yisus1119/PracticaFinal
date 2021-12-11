@@ -137,8 +137,14 @@
   <data name="URLFacebookTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 126</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NoDocumento.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -151,9 +157,6 @@
   </data>
   <data name="&gt;&gt;ComentarioTxt.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 13</value>
@@ -182,23 +185,20 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="CheckBoxRol.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Telefono</value>
   </data>
+  <data name="&gt;&gt;DescripcionTxt.Name" xml:space="preserve">
+    <value>DescripcionTxt</value>
+  </data>
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;URLWebTxt.Parent" xml:space="preserve">
-    <value>groupBox2</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 110</value>
@@ -218,11 +218,14 @@
   <data name="label15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
   <data name="&gt;&gt;label16.Parent" xml:space="preserve">
     <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="DescripcionTxt.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -230,14 +233,20 @@
   <data name="CheckBoxEliminable.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="TipoDocBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 83</value>
+  <data name="&gt;&gt;Status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="CheckBoxEliminable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 102</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
   </data>
   <data name="URLWebTxt.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;NoDocumento.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Descripcion</value>
@@ -266,20 +275,11 @@
   <data name="label13.Text" xml:space="preserve">
     <value>Comentario</value>
   </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;URLInstagramTxt.Name" xml:space="preserve">
     <value>URLInstagramTxt</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
-  </data>
-  <data name="&gt;&gt;DescripcionTxt.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="CreditosTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -308,11 +308,14 @@
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
   </data>
+  <data name="URLWebTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
   <data name="&gt;&gt;LocalidadTxt.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="ComentarioTxt.Text" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;CreditosTxt.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Entidades</value>
@@ -329,6 +332,9 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Tipo de documento</value>
   </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 227</value>
+  </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 69</value>
   </data>
@@ -341,20 +347,14 @@
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 13</value>
+  <data name="&gt;&gt;CheckBoxRol.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxRol.Name" xml:space="preserve">
-    <value>CheckBoxRol</value>
   </data>
   <data name="&gt;&gt;DireccionTxt.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -375,6 +375,9 @@
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Limites de creditos</value>
+  </data>
   <data name="&gt;&gt;TipoEntidadBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -386,6 +389,9 @@
   </data>
   <data name="&gt;&gt;DireccionTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <data name="URKTiktokTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 243</value>
@@ -402,6 +408,9 @@
   <data name="TipoDocBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;TipoDocBox.Name" xml:space="preserve">
+    <value>TipoDocBox</value>
+  </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
@@ -417,8 +426,8 @@
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;CheckBoxRol.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -429,14 +438,17 @@
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
   </data>
+  <data name="&gt;&gt;TipoEntidadBox.Name" xml:space="preserve">
+    <value>TipoEntidadBox</value>
+  </data>
   <data name="TipoDocBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 21</value>
   </data>
-  <data name="CheckBoxEliminable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Datos Personales</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
   </data>
   <data name="&gt;&gt;URLFacebookTxt.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -453,17 +465,11 @@
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;CheckBoxRol.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="URLTwitterTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 20</value>
-  </data>
-  <data name="DireccionTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 37</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -477,11 +483,11 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="URLInstagramTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;URLTwitterTxt.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="URKTiktokTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;CheckBoxEliminable.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;URLTwitterTxt.Name" xml:space="preserve">
     <value>URLTwitterTxt</value>
@@ -495,8 +501,8 @@
   <data name="&gt;&gt;TipoDocBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -516,8 +522,8 @@
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;VolverBtn.Name" xml:space="preserve">
-    <value>VolverBtn</value>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Rol</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -531,14 +537,14 @@
   <data name="URLFacebookTxt.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>570, 500</value>
   </data>
   <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -552,9 +558,6 @@
   <data name="URKTiktokTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 20</value>
   </data>
-  <data name="&gt;&gt;Status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;label15.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
@@ -567,23 +570,17 @@
   <data name="&gt;&gt;URLWebTxt.Name" xml:space="preserve">
     <value>URLWebTxt</value>
   </data>
-  <data name="NoDocumento.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
-  </data>
   <data name="&gt;&gt;URLWebTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;URLTwitterTxt.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;LocalidadTxt.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -594,8 +591,8 @@
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="TipoEntidadBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 21</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>URL TikTok</value>
   </data>
   <data name="ComentarioTxt.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -603,8 +600,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;DescripcionTxt.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 13</value>
@@ -615,8 +612,8 @@
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="URLWebTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 20</value>
+  <data name="&gt;&gt;CheckBoxRol.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="Status.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 21</value>
@@ -630,17 +627,17 @@
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
   </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="CreditosTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="NoDocumento.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="DireccionTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -660,8 +657,8 @@
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>284, 163</value>
   </data>
-  <data name="&gt;&gt;TipoEntidadBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;TelefonoTxt.Name" xml:space="preserve">
+    <value>TelefonoTxt</value>
   </data>
   <data name="&gt;&gt;TipoDocBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -678,11 +675,17 @@
   <data name="URLFacebookTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 20</value>
   </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
   <data name="Status.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>groupBox2</value>
+  </data>
+  <data name="TelefonoTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -690,14 +693,8 @@
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;CheckBoxEliminable.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="VolverBtn.Text" xml:space="preserve">
     <value>Volver</value>
@@ -717,14 +714,17 @@
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 149</value>
   </data>
+  <data name="&gt;&gt;CreditosTxt.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
   <data name="CheckBoxEliminable.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CreditosTxt.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;TipoEntidadBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 139</value>
@@ -744,8 +744,8 @@
   <data name="TelefonoTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
+  <data name="CheckBoxRol.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;URLInstagramTxt.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -770,6 +770,9 @@
   </data>
   <data name="TelefonoTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 37</value>
+  </data>
+  <data name="TipoEntidadBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;DireccionTxt.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -801,8 +804,8 @@
   <data name="DescripcionTxt.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 33</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Direccion</value>
+  <data name="TipoDocBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 83</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -822,17 +825,20 @@
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="TelefonoTxt.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="&gt;&gt;ComentarioTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Localidad</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 227</value>
+  <data name="URLInstagramTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="CheckBoxRol.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 21</value>
@@ -846,17 +852,17 @@
   <data name="&gt;&gt;URKTiktokTxt.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;TipoEntidadBox.Name" xml:space="preserve">
-    <value>TipoEntidadBox</value>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;NoDocumento.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;CheckBoxEliminable.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;LocalidadTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -864,8 +870,8 @@
   <data name="CheckBoxRol.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 141</value>
   </data>
-  <data name="TipoEntidadBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;URLWebTxt.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 13</value>
@@ -891,14 +897,14 @@
   <data name="&gt;&gt;DescripcionTxt.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 13</value>
+  <data name="CheckBoxEliminable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
   </data>
-  <data name="&gt;&gt;TipoDocBox.Name" xml:space="preserve">
-    <value>TipoDocBox</value>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;NoDocumento.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Direccion</value>
   </data>
   <data name="&gt;&gt;CheckBoxEliminable.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -912,11 +918,11 @@
   <data name="&gt;&gt;URKTiktokTxt.Name" xml:space="preserve">
     <value>URKTiktokTxt</value>
   </data>
-  <data name="&gt;&gt;DescripcionTxt.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;NoDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TelefonoTxt.Name" xml:space="preserve">
-    <value>TelefonoTxt</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>URL Facebook</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -930,9 +936,6 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>URL Facebook</value>
-  </data>
   <data name="VolverBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 39</value>
   </data>
@@ -942,47 +945,47 @@
   <data name="DescripcionTxt.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;URLTwitterTxt.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="NoDocumento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
   </data>
-  <data name="&gt;&gt;ComentarioTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="CheckBoxEliminable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 102</value>
   </data>
-  <data name="&gt;&gt;CreditosTxt.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;CheckBoxRol.Name" xml:space="preserve">
+    <value>CheckBoxRol</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 13</value>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;DescripcionTxt.Name" xml:space="preserve">
-    <value>DescripcionTxt</value>
+  <data name="CreditosTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="CreditosTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="ComentarioTxt.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;Status.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>URL TikTok</value>
+  <data name="URKTiktokTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 54</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Limites de creditos</value>
+  <data name="&gt;&gt;DescripcionTxt.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>Rol</value>
+  <data name="&gt;&gt;VolverBtn.Name" xml:space="preserve">
+    <value>VolverBtn</value>
   </data>
   <data name="&gt;&gt;Status.Name" xml:space="preserve">
     <value>Status</value>
@@ -993,20 +996,17 @@
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
-  </data>
-  <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxEliminable.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;ComentarioTxt.Name" xml:space="preserve">
+    <value>ComentarioTxt</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
   </data>
   <data name="DescripcionTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 96</value>
@@ -1017,26 +1017,26 @@
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
+  <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 13</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
   </data>
   <data name="&gt;&gt;VolverBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ComentarioTxt.Name" xml:space="preserve">
-    <value>ComentarioTxt</value>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="URLInstagramTxt.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 20</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="TipoEntidadBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
