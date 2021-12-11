@@ -37,6 +37,15 @@ namespace ClaseDatos
             tabla.Load(BuscarEntidades);
             return tabla;
         }
+        public DataTable MostrarTipoEntidades()
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "MostrarTipoEntidades";
+            comando.CommandType = CommandType.StoredProcedure;
+            BuscarEntidades = comando.ExecuteReader();
+            tabla.Load(BuscarEntidades);
+            return tabla;
+        }
 
         public bool IniciarSesion (string UserNameEntidad, string PassworEntidad)
         {
@@ -68,6 +77,13 @@ namespace ClaseDatos
             comando.ExecuteNonQuery();
             Conexion.AbrirConexion();
 
+        }
+        public void InsertarTipoEntidades( string descripcion, int idGrupo, string comentario, string status, bool NoEliminable, string FechaRegistro)
+        {
+            comando.Connection = Conexion.AbrirConexion();
+            comando.CommandText = "insert into TiposEntidades values ('" + descripcion + "','" + idGrupo + "','" + comentario + "','" + status + "','" + NoEliminable + "','" + FechaRegistro + "')";
+            comando.CommandType = CommandType.Text;
+            comando.ExecuteNonQuery();
         }
 
 

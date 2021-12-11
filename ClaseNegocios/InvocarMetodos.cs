@@ -25,7 +25,12 @@ namespace ClaseNegocios
             GrupoEntidades = objetoMetodos.MostrarGrupoEntidades();
             return GrupoEntidades;
         }
-
+        public DataTable GetTipoEntidades()
+        {
+            DataTable TipoEntidades = new DataTable();
+            TipoEntidades = objetoMetodos.MostrarTipoEntidades();
+            return TipoEntidades;
+        }
 
         public bool Login (string UserNameEntidad, string PassworEntidad)
         {
@@ -38,7 +43,13 @@ namespace ClaseNegocios
             string fecha = dt.ToString("yyyy-M-dd");
             objetoMetodos.InsertarGrupoEntidades(Descripcion, Comentario, Status, Convert.ToBoolean(NoEliminable), fecha);
         }
+        public void InsertarTipoEntidad( string descripcion, string idGrupo, string comentario, string status, string NoEliminable, string FechaRegistro)
+        {
+            DateTime dt = Convert.ToDateTime(FechaRegistro);
+            string fecha = dt.ToString("yyyy-M-dd");
+            objetoMetodos.InsertarTipoEntidades(descripcion, Convert.ToInt32(idGrupo), comentario, status, Convert.ToBoolean(NoEliminable), fecha);
 
+        }
 
     }
 }
