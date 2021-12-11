@@ -38,7 +38,17 @@ namespace PracticaFInalProgramacion
             dataGridView1.DataSource = objetoNegocios.GetGrupoEntidades();
 
         }
+       
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtIdGrupoEntidad.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            txtDescripcion.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            txtComentario.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            comboStatus.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            checkBoxEliminable.Checked = (bool)dataGridView1.CurrentRow.Cells[4].Value;
+            dateFechaRegistro.Value = (DateTime)dataGridView1.CurrentRow.Cells[5].Value;
 
 
+        }
     }
 }
