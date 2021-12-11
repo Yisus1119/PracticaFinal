@@ -17,5 +17,9 @@ namespace PracticaFInalProgramacion
             InitializeComponent();
         }
 
+        private void InsertarBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
