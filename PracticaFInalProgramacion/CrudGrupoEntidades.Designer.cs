@@ -50,7 +50,7 @@ namespace PracticaFInalProgramacion
             // BuscarBtn
             // 
             this.BuscarBtn.Location = new System.Drawing.Point(521, 24);
-            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BuscarBtn.Margin = new System.Windows.Forms.Padding(4);
             this.BuscarBtn.Name = "BuscarBtn";
             this.BuscarBtn.Size = new System.Drawing.Size(100, 28);
             this.BuscarBtn.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace PracticaFInalProgramacion
             // txtIdGrupoEntidad
             // 
             this.txtIdGrupoEntidad.Location = new System.Drawing.Point(364, 30);
-            this.txtIdGrupoEntidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdGrupoEntidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdGrupoEntidad.Name = "txtIdGrupoEntidad";
             this.txtIdGrupoEntidad.Size = new System.Drawing.Size(132, 22);
             this.txtIdGrupoEntidad.TabIndex = 2;
@@ -84,6 +84,7 @@ namespace PracticaFInalProgramacion
             this.button6.TabIndex = 8;
             this.button6.Text = "Insertar";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -144,6 +145,9 @@ namespace PracticaFInalProgramacion
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
+            this.comboStatus.Items.AddRange(new object[] {
+            "Activa",
+            "Inactiva"});
             this.comboStatus.Location = new System.Drawing.Point(659, 224);
             this.comboStatus.Name = "comboStatus";
             this.comboStatus.Size = new System.Drawing.Size(179, 24);
@@ -174,6 +178,7 @@ namespace PracticaFInalProgramacion
             this.dateFechaRegistro.Name = "dateFechaRegistro";
             this.dateFechaRegistro.Size = new System.Drawing.Size(200, 22);
             this.dateFechaRegistro.TabIndex = 21;
+            this.dateFechaRegistro.Value = new System.DateTime(2021, 12, 11, 0, 0, 0, 0);
             // 
             // dataGridView1
             // 

@@ -17,9 +17,15 @@ namespace PracticaFInalProgramacion
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnInsertar_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void TipoEntidades_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
