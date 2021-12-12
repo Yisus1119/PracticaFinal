@@ -62,4 +62,6 @@ C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\Pr
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.pdb
 C:\Users\enriq\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.resources
 C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.resources
-C:\Users\smail\Source\Repos\PracticaFinal\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.resources
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\bin\Debug\es-419\PracticaFInalProgramacion.resources.dll
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\PracticaFInalProgramacion.Entidades.es-419.resources
+C:\Users\paraq\source\repos\PracticaFInalProgramacion\PracticaFInalProgramacion\obj\Debug\es-419\PracticaFInalProgramacion.resources.dll

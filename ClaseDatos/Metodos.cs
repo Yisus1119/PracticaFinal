@@ -64,18 +64,17 @@ namespace ClaseDatos
             return true;
         }
 
-        public void InsertarGrupoEntidades(string Descripcion, string Comentario, string Status, bool NoEliminable, string FechaRegistro)
+        public void InsertarGrupoEntidades(string Descripcion, string Comentario, string Status, bool NoEliminable)
         {
             comando.Connection = Conexion.AbrirConexion();
-            comando.CommandText = "insertarGrupoEntidad";
+            comando.CommandText = "insertarGruposEntidades";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@Descripcion", Descripcion);
             comando.Parameters.AddWithValue("@Comentario", Comentario);
             comando.Parameters.AddWithValue("@Status", Status);
             comando.Parameters.AddWithValue("@NoEliminable", NoEliminable);
-            comando.Parameters.AddWithValue("@FechaRegistro", FechaRegistro);
             comando.ExecuteNonQuery();
-            Conexion.AbrirConexion();
+            Conexion.CerrarConexion();
 
         }
         public void InsertarTipoEntidades( string descripcion, int idGrupo, string comentario, string status, bool NoEliminable, string FechaRegistro)
