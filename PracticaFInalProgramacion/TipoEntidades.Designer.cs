@@ -44,6 +44,9 @@ namespace PracticaFInalProgramacion
             this.comboStatus = new System.Windows.Forms.ComboBox();
             this.checkBoxEliminable = new System.Windows.Forms.CheckBox();
             this.txtID = new System.Windows.Forms.TextBox();
+            this.txtIdTipoEntidad = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,8 +56,9 @@ namespace PracticaFInalProgramacion
             this.dataGridView2.Location = new System.Drawing.Point(12, 62);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.Size = new System.Drawing.Size(419, 225);
+            this.dataGridView2.Size = new System.Drawing.Size(461, 225);
             this.dataGridView2.TabIndex = 1;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // btnInsertar
             // 
@@ -74,6 +78,7 @@ namespace PracticaFInalProgramacion
             this.btnEditar.TabIndex = 3;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -83,6 +88,7 @@ namespace PracticaFInalProgramacion
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnBuscar
             // 
@@ -153,7 +159,7 @@ namespace PracticaFInalProgramacion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(479, 274);
+            this.label5.Location = new System.Drawing.Point(478, 307);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(113, 16);
@@ -162,7 +168,7 @@ namespace PracticaFInalProgramacion
             // 
             // dateFechaRegistro
             // 
-            this.dateFechaRegistro.Location = new System.Drawing.Point(481, 299);
+            this.dateFechaRegistro.Location = new System.Drawing.Point(482, 335);
             this.dateFechaRegistro.Margin = new System.Windows.Forms.Padding(2);
             this.dateFechaRegistro.Name = "dateFechaRegistro";
             this.dateFechaRegistro.Size = new System.Drawing.Size(151, 20);
@@ -180,7 +186,7 @@ namespace PracticaFInalProgramacion
             // checkBoxEliminable
             // 
             this.checkBoxEliminable.AutoSize = true;
-            this.checkBoxEliminable.Location = new System.Drawing.Point(482, 245);
+            this.checkBoxEliminable.Location = new System.Drawing.Point(481, 279);
             this.checkBoxEliminable.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxEliminable.Name = "checkBoxEliminable";
             this.checkBoxEliminable.Size = new System.Drawing.Size(87, 17);
@@ -190,16 +196,51 @@ namespace PracticaFInalProgramacion
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(492, 334);
+            this.txtID.Location = new System.Drawing.Point(481, 245);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 20);
             this.txtID.TabIndex = 21;
+            // 
+            // txtIdTipoEntidad
+            // 
+            this.txtIdTipoEntidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIdTipoEntidad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdTipoEntidad.Location = new System.Drawing.Point(274, 27);
+            this.txtIdTipoEntidad.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIdTipoEntidad.Multiline = true;
+            this.txtIdTipoEntidad.Name = "txtIdTipoEntidad";
+            this.txtIdTipoEntidad.Size = new System.Drawing.Size(81, 23);
+            this.txtIdTipoEntidad.TabIndex = 22;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(479, 226);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 16);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "IdGrupoEntidad";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(271, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 13);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "IdTipoEntidad";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // TipoEntidades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 366);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtIdTipoEntidad);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.checkBoxEliminable);
             this.Controls.Add(this.comboStatus);
@@ -241,5 +282,8 @@ namespace PracticaFInalProgramacion
         private System.Windows.Forms.ComboBox comboStatus;
         private System.Windows.Forms.CheckBox checkBoxEliminable;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtIdTipoEntidad;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
     }
 }
