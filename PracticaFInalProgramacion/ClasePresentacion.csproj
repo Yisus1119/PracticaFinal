@@ -81,6 +81,9 @@
     <EmbeddedResource Include="CrudGrupoEntidades.resx">
       <DependentUpon>CrudGrupoEntidades.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Entidades.es-419.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Entidades.resx">
       <DependentUpon>Entidades.cs</DependentUpon>
     </EmbeddedResource>
