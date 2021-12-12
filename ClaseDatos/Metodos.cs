@@ -80,10 +80,26 @@ namespace ClaseDatos
         }
         public void InsertarTipoEntidades( string descripcion, int idGrupo, string comentario, string status, bool NoEliminable, string FechaRegistro)
         {
+            //comando.Connection = Conexion.AbrirConexion();
+            //comando.CommandText = "insert into TiposEntidades values ('" + descripcion + "','" + idGrupo + "','" + comentario + "','" + status + "','" + NoEliminable + "','" + FechaRegistro + "')";
+            //comando.CommandType = CommandType.Text;
+            //comando.ExecuteNonQuery();
+
             comando.Connection = Conexion.AbrirConexion();
-            comando.CommandText = "insert into TiposEntidades values ('" + descripcion + "','" + idGrupo + "','" + comentario + "','" + status + "','" + NoEliminable + "','" + FechaRegistro + "')";
-            comando.CommandType = CommandType.Text;
+            comando.CommandText = "InsertarTipoEntidades";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@Descripcion", descripcion);
+            comando.Parameters.AddWithValue("@idGrupoEntidad", idGrupo);
+            comando.Parameters.AddWithValue("@Comentario", comentario);
+            comando.Parameters.AddWithValue("@Status", status);
+            comando.Parameters.AddWithValue("@NoEliminable", NoEliminable);
+            comando.Parameters.AddWithValue("@FechaRegistro", FechaRegistro);
             comando.ExecuteNonQuery();
+            Conexion.AbrirConexion();
+        }
+        public void EditarTipoEntidades(int tipoEntidad,string descripcion, int idGrupo, string comentario, string status, bool NoEliminable, string FechaRegistro)
+        {
+
         }
 
 
